@@ -1,0 +1,131 @@
+properties:
+  start-timer: 45
+  spawn: "world, 5054.5, 166, 5080.5, -180, 0"
+  middle: "world, 196, 159, 189, 180, 0"
+
+generators:
+
+  diamond-locations:
+    - "world, 140.5, 112, 126.5"
+    - "world, 264.5, 112, 126.5"
+    - "world, 264.5, 112, 250.5"
+    - "world, 140.5, 112, 250.5"
+
+  emerald-locations:
+    - "world, 187.5 , 116, 178.5"
+    - "world, 206.5, 113, 197.5"
+    - "world, 204.5, 126, 180.5"
+    - "world, 192.5, 129, 194.5"
+
+teams:
+  black:
+    name: "Noir"
+    color: "8"
+    byte-color: 15
+    spawn: "world, 78.5, 112, 226, -90, 0"
+    generator: "world, 71, 111, 226"
+    shop: "world, 79.5, 111, 232, 0, 0"
+    upgrade: "world, 79.5, 111, 240, 180, 0"
+    protected-area-1: "world, 67, 118, 216"
+    protected-area-2: "world, 84, 110, 237"
+    bed-locations:
+      - "world, 90, 111, 226"
+      - "world, 91, 111, 226"
+
+  red:
+    name: "Rouge"
+    color: "c"
+    byte-color: 14
+    spawn: "world, 78.5, 112, 151.5, -90, 0"
+    generator: "world, 71, 111, 151"
+    shop: "world, 79.5, 111, 146, 0, 0"
+    upgrade: "world, 79.5, 111, 158, 180, 0"
+    protected-area-1: "world, 67, 118, 161"
+    protected-area-2: "world, 84, 110, 140"
+    bed-locations:
+      - "world, 90, 111, 151"
+      - "world, 91, 111, 151"
+
+  purple:
+    name: "Violet"
+    color: "5"
+    byte-color: 10
+    spawn: "world, 164.5, 112, 64.5, 0, 0"
+    generator: "world, 164, 111, 57"
+    shop: "world, 170, 111, 65.5, 90, 0"
+    upgrade: "world, 158, 111, 65.5, -90, 0"
+    protected-area-1: "world, 174, 118, 53"
+    protected-area-2: "world, 153, 110, 70"
+    bed-locations:
+      - "world, 164, 111, 76"
+      - "world, 164, 111, 77"
+
+  blue:
+    name: "Bleu"
+    color: "9"
+    byte-color: 11
+    spawn: "world, 239.5, 112, 64.5, 0, 0"
+    generator: "world, 239, 111, 57"
+    shop: "world, 245, 111, 65.5, 90, 0"
+    upgrade: "world, 233, 111, 65.5, -90, 0"
+    protected-area-1: "world, 229, 118, 53"
+    protected-area-2: "world, 250, 110, 70"
+    bed-locations:
+      - "world, 239, 111, 76"
+      - "world, 239, 111, 77"
+
+  white:
+    name: "Blanc"
+    color: "f"
+    byte-color: 0
+    spawn: "world, 326.5, 112, 150.5, 90, 0"
+    generator: "world, 333, 111, 150"
+    shop: "world, 324.5, 111, 156, 180, 0"
+    upgrade: "world, 324.5, 111, 144, 0, 0"
+    protected-area-1: "world, 337, 118, 160"
+    protected-area-2: "world, 320, 110, 139"
+    bed-locations:
+      - "world, 314, 111, 150"
+      - "world, 313, 111, 150"
+
+  yellow:
+    name: "Jaune"
+    color: "e"
+    byte-color: 4
+    spawn: "world, 326.5, 112, 225.5, 90, 0"
+    generator: "world, 333, 111, 225"
+    shop: "world, 324.5, 111, 231, 180, 0"
+    upgrade: "world, 324.5, 111, 219, 0, 0"
+    protected-area-1: "world, 337, 118, 215"
+    protected-area-2: "world, 320, 110, 236"
+    bed-locations:
+      - "world, 314, 111, 225"
+      - "world, 313, 111, 225"
+
+  green:
+    name: "Vert"
+    color: "a"
+    byte-color: 5
+    spawn: "world, 240.5, 112, 312.5, 180, 0"
+    generator: "world, 240, 111, 319"
+    shop: "world, 234, 111, 310.5, -90, 0"
+    upgrade: "world, 246, 111, 310.5, 90, 0"
+    protected-area-1: "world, 230, 118, 323"
+    protected-area-2: "world, 251, 110, 306"
+    bed-locations:
+      - "world, 240, 111, 299"
+      - "world, 240, 111, 300"
+
+  pink:
+    name: "Rose"
+    color: "d"
+    byte-color: 6
+    spawn: "world, 165.5, 112, 312.5, 180, 0"
+    generator: "world, 165, 111, 319"
+    shop: "world, 159, 111, 310.5, -90, 0"
+    upgrade: "world, 171, 111, 310.5, 90, 0"
+    protected-area-1: "world, 175, 118, 323"
+    protected-area-2: "world, 154, 110, 306"
+    bed-locations:
+      - "world, 165, 111, 299"
+      - "world, 165, 111, 300"

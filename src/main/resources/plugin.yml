@@ -1,0 +1,13 @@
+author: Baxymoz
+version: 1.0.0
+main: net.altarise.bw.Bedwars
+name: Bedwars
+depend: [AltariseCore, AltariseGameCore]
+commands:
+  boooom:
+    permission: bw.boooom
+  events:
+    permission: bw.events
+  btp:
+    permission: bw.btp
+

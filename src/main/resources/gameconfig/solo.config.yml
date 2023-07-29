@@ -1,0 +1,52 @@
+generators:
+
+  iron-limit: 50
+  gold-limit: 15
+  diamond-limit: 3
+  emerald-limit: 1
+  netherstar-limit: 1
+
+  #spawn each x ticks (20t -> 1s)
+  iron-between-1: 20 #level 1
+  iron-between-2: 18 #level 2
+  iron-between-3: 15 #level 3
+  iron-between-4: 12 #level 4
+  gold-between-1: 50 #level 1
+  gold-between-2: 40 #level 2
+  gold-between-3: 30 #level 3
+  gold-between-4: 20 #level 4
+
+  #spawn each x seconds
+  diamond-between-1: 15 #level 1
+  diamond-between-2: 10 #level 2
+  diamond-between-3: 10 #level 3
+  emerald-between-1: 50 #level 1
+  emerald-between-2: 35 #level 2
+  emerald-between-3: 25 #level 3
+
+
+  #upgrade after x seconds
+  diamond-upgrade-1: 150 #seconds to level 1
+  diamond-upgrade-2: 150 #seconds to level 2
+  emerald-upgrade-1: 210 #seconds to level 1
+  emerald-upgrade-2: 210 #seconds to level 2
+
+shop:
+
+  DIAMOND_SWORD: 4
+  TNT: 4
+  WATER_BUCKET: 3
+  SPONGE: 3
+
+upgrades:
+
+  SHARPNESS: 4
+  PROTECTION-1: 2
+  PROTECTION-2: 4
+  PROTECTION-3: 8
+  PROTECTION-4: 16
+  HASTE-1: 2
+  HASTE-2: 4
+  FORGE-2: 2
+  FORGE-3: 4
+  FORGE-4: 6
